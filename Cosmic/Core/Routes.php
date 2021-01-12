@@ -79,7 +79,7 @@ class Routes extends Router
                 Router::get('/hotel', 'Client\Client@hotel');
                 Router::get('/hotelv2', 'Nitro\Nitro@hotel');
                 Router::get('/client', 'Client\Client@client');
-                Router::get('/nitro', 'Nitro\Nitro@client');
+                Router::get('/beta', 'Nitro\Nitro@client');
 
                 Router::get('/settings', 'Settings\Preferences@index');
                 Router::get('/settings/email', 'Settings\Email@index');
